@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-p {
+.tester-text {
   display: block;
   font-size: 5rem;
   text-align: center;
@@ -103,6 +103,11 @@ p {
 
 .about {
   background-color: aquamarine;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 /* ==========================================================================
