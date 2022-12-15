@@ -93,18 +93,6 @@ textarea {
   text-align: center;
 }
 
-.home {
-  background-color: hotpink;
-}
-
-.faq {
-  background-color: forestgreen;
-}
-
-.about {
-  background-color: aquamarine;
-}
-
 h2 {
   margin: 0;
   font-size: 1.5rem;
