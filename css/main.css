@@ -87,15 +87,149 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.tester-text {
-  display: block;
-  font-size: 5rem;
+/********************** Styles for all three pages ****************************/
+* {
+  border: 1px solid red;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: left;
+}
+
+/******************************* Header *******************************/
+
+header > .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header > .content-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header > .content-wrapper ul li {
+  flex: 2 1 20%;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+/******************************* Footer *******************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.footer-content > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex: 0 1 20vw;
+  height: 100%;
+  min-width: 40vw;
+}
+
+/********************** Footer - address section ***************************/
+address {
+  text-align: center;
+}
+/************************ Footer - social icons ***************************/
+
+.social-icons {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   text-align: center;
 }
 
-h2 {
-  margin: 0;
-  font-size: 1.5rem;
+.social-icons p {
+  flex: 1 1 20%;
+  display: block;
+}
+
+/******************************* Home page *******************************/
+.features-articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 10%;
+}
+
+.features-items {
+  width: 20%;
+}
+.review-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 10%;
+}
+
+.review-item img,
+.review-item div {
+  width: 40%;
+}
+
+.join div {
+  width: 40%;
+}
+
+aside > .content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/******************************* About page *******************************/
+.contact-content {
+  display: flex;
+  column-gap: 10%;
+}
+
+.contact-content div {
+  width: 40%;
+}
+
+.mission-content-text {
+  display: flex;
+  column-gap: 8%;
+}
+
+/******************************* FAQ page *******************************/
+.questions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  justify-content: space-between;
+}
+
+.question-wrapper {
+  width: 45%;
 }
 
 /* ==========================================================================
