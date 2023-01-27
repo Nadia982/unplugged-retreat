@@ -87,12 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/********************** Global styles - for all three pages ****************************/
-
-/* 
-Items for which width needs to be set as a percentage:
-    reviews h3
-*/
+/********************** Global styles - for all three pages *****************/
 
 * {
   border: 1px solid red;
@@ -103,7 +98,7 @@ Items for which width needs to be set as a percentage:
   margin: 50px 0;
 }
 
-/* -------------------- Base Header Styles -------------------- */
+/* *************************** Base Header Styles ***************************/
 
 header,
 footer {
@@ -186,7 +181,9 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
-/********************** Mobile Styles - Homepage ***************************/
+/************************************************************
+Home page - mobile styles
+************************************************************/
 /* Hero area */
 
 .hero-area {
@@ -249,7 +246,7 @@ aside {
 }
 
 /************************************************************
-About page 
+About page - mobile styles
 ************************************************************/
 
 .mission-section {
@@ -271,7 +268,7 @@ About page
 }
 
 /************************************************************
-FAQ page 
+FAQ page - mobile styles
 ************************************************************/
 .faq-section {
   display: flex;
@@ -292,7 +289,7 @@ FAQ page
   margin-bottom: 50px;
 }
 
-.question-wrapper {
+.faq-content {
   margin-bottom: 50px;
 }
 
@@ -384,15 +381,161 @@ FAQ page
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* General styles */
+  * {
+    border: 1px solid teal;
+  }
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /* Header */
+
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* Features */
+
+  .features-section article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 45%;
+    text-align: center;
+  }
+
+  .features-section .features-item-description {
+    width: 60%;
+  }
+
+  /* Reviews */
+  .reviews-section article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .reviews-section article div {
+    width: 49%;
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 70%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ==========================================================================
+ 	About Page - tablet styles
+ 	========================================================================== */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .map-section .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .general-info-wrapper,
+  .chat-wrapper {
+    flex-basis: 40%;
+  }
+
+  /* ==========================================================================
+ 	FAQ Page - tablet styles
+ 	========================================================================== */
+
+  .faq-section .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq-section h2 {
+    width: 100%;
+  }
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
 }
 
 /* ==========================================================================
