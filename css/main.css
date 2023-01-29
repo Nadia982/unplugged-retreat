@@ -535,7 +535,61 @@ FAQ page - mobile styles
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+  /* ==========================================================================
+       Home Page - desktop styles
+       ========================================================================== */
+  * {
+    border: 1px solid darkblue;
+  }
+  /* use Unplugged’s desktop design comp to measure out widths, margins, and padding. 
+       add flexbox properties to layout elements that flex based on the browser’s size. */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Hero */
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features-section h2 {
+    width: 90%;
+  }
+
+  .features-section article {
+    flex-basis: 30%;
+  }
+
+  /* Reviews */
+  .reviews-section article div {
+    width: 45%;
+  }
+
+  /* ==========================================================================
+       About Page - desktop styles
+       ========================================================================== */
+  .mission-section h2,
+  .contact-section .content-wrapper h2 {
+    width: 90%;
+  }
+
+  /* ==========================================================================
+       FAQ Page - desktop styles
+       ========================================================================== */
+  .faq-section h2 {
+    width: 70%;
+  }
 }
 
 /* ==========================================================================
