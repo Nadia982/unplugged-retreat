@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/********************** Global styles - for all three pages *****************/
+/***************** Global mobile-first styles - for all three pages *************/
 
 * {
   border: 1px solid red;
@@ -97,6 +97,70 @@ textarea {
   width: 90%;
   margin: 50px 0;
 }
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+input {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+.features-section .fontawesome-icon {
+  font-size: 3.75rem;
+}
+
+.social-icons a {
+  font-size: 1.3125rem;
+}
+
+/* img {
+}
+
+figure {
+} */
 
 /* *************************** Base Header Styles ***************************/
 
@@ -267,6 +331,10 @@ About page - mobile styles
   margin: 0;
 }
 
+address {
+  font-style: normal;
+}
+
 /************************************************************
 FAQ page - mobile styles
 ************************************************************/
@@ -381,6 +449,10 @@ FAQ page - mobile styles
    Modify as content requires.
    ========================================================================== */
 
+/* ==========================================================================
+Tablet styles 
+============================================================================= */
+
 @media only screen and (min-width: 768px) {
   /* General styles */
   * {
@@ -391,6 +463,41 @@ FAQ page - mobile styles
     max-width: 640px;
     margin: 100px 0;
   }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  footer p {
+    line-height: 1.125rem;
+  }
+
+  /* img {
+  }
+  
+  figure {
+  } */
 
   /* Header */
 
@@ -405,7 +512,7 @@ FAQ page - mobile styles
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
@@ -536,13 +643,67 @@ FAQ page - mobile styles
 
 @media only screen and (min-width: 1200px) {
   /* ==========================================================================
-       Home Page - desktop styles
+       General desktop styles
        ========================================================================== */
+
   * {
     border: 1px solid darkblue;
   }
-  /* use Unplugged’s desktop design comp to measure out widths, margins, and padding. 
-       add flexbox properties to layout elements that flex based on the browser’s size. */
+  /* ul,
+  ol {
+  } */
+
+  a {
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+
+  input {
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .faq-section h2,
+  .mission-section h2 {
+    font-size: 3rem;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875rem;
+  }
+
+  .faq-section h3 {
+    line-height: 2.5rem;
+  }
+
+  .faq-section p {
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  /* img {
+}
+
+figure {
+} */
+
+  /* ==========================================================================
+       Home Page - desktop styles
+       ========================================================================== */
+
   .content-wrapper {
     max-width: 960px;
   }
