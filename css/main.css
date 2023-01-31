@@ -98,7 +98,24 @@ textarea {
   margin: 50px 0;
 }
 
-/* Background colors */
+.hero-area .content-wrapper {
+  width: 90%;
+  margin: 0 0 190px 0;
+}
+
+/* Background colors and background images */
+
+.hero-area {
+  background: url("../Assets/jake-melara-30679-unsplash.jpg") center no-repeat
+    #333;
+  background-size: cover;
+}
+
+.features-section {
+  background: url("../Assets/rawpixel-800820-unsplash1.jpg") center no-repeat
+    #333;
+  background-size: cover;
+}
 
 header,
 footer {
@@ -120,6 +137,16 @@ aside,
   background-color: #527158;
 }
 
+/* Images */
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /* Font styles - all three pages */
 
 html {
@@ -132,13 +159,19 @@ body {
   color: #e2e3ed;
 }
 
+ul {
+  padding-left: 0;
+}
+
 ul li,
 ol li {
   list-style-type: none;
+  margin-left: 0;
 }
 
 nav a {
   text-transform: uppercase;
+  margin-left: 0;
 }
 
 a {
@@ -243,6 +276,14 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
@@ -361,8 +402,12 @@ aside {
 }
 
 .reviews-section h3 {
-  width: 60%;
-  margin: 20px 0;
+  width: 80%;
+  margin: 0;
+}
+
+.reviews-section p {
+  line-height: 1.25rem;
 }
 
 /************************************************************
@@ -521,8 +566,8 @@ Tablet styles
   }
 
   h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
   }
 
   h2 {
@@ -565,6 +610,10 @@ Tablet styles
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
@@ -720,7 +769,8 @@ Tablet styles
   }
 
   h1 {
-    font-size: 3.75rem;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
   }
 
   h2 {
@@ -766,7 +816,7 @@ figure {
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    width: 50%;
   }
 
   /* Aside */
@@ -790,7 +840,17 @@ figure {
 
   /* Reviews */
   .reviews-section article div {
-    width: 45%;
+    width: 48%;
+  }
+
+  .reviews-section h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .reviews-section p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   /* ==========================================================================
