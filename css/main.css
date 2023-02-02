@@ -376,6 +376,7 @@ aside {
 .features-section article {
   width: 65%;
   margin: 30px auto;
+  text-align: center;
 }
 
 .features-section .features-items {
@@ -387,6 +388,11 @@ aside {
 
 .features-section p {
   margin: 0;
+}
+
+.features-section i {
+  font-size: 3.75rem;
+  margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -610,13 +616,7 @@ Tablet styles
     line-height: 1.125rem;
   }
 
-  /* img {
-  }
-  
-  figure {
-  } */
-
-  /* Header */
+  /* Header - tablets */
 
   header {
     justify-content: space-around;
@@ -644,9 +644,9 @@ Tablet styles
     display: none;
   }
 
-  /* Hero Area */
+  /* Hero Area - tablets */
 
-  /* Aside */
+  /* Aside - tablets */
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -668,7 +668,6 @@ Tablet styles
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 45%;
-    text-align: center;
   }
 
   .features-section .features-item-description {
