@@ -742,6 +742,10 @@ FAQ page - mobile styles
     border: 1px solid darkblue;
   } */
 
+  header nav {
+    width: 35%;
+  }
+
   nav a {
     font-weight: 700;
     font-size: 2.3rem;
