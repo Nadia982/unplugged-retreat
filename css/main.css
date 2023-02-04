@@ -110,7 +110,7 @@ textarea {
 /* Background colors and background images */
 
 .hero-area {
-  background: url("../Assets/jake-melara-30679-unsplash.jpg") right no-repeat
+  background: url("../Assets/jake-melara-30679-unsplash.jpg") center no-repeat
     #333;
   background-size: cover;
 }

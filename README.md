@@ -59,9 +59,11 @@ All links were tested to ensure correct functionality.
 - The background image for the features section on the home page (rawpixel-800820-unsplash1.jpg) and the unplugged logo (unpluggedlogo.png) were provided by Skillcrush.
 - The group photo is from https://unsplash.com/photos/T6zu4jFhVwg (photographer: https://unsplash.com/@omarlopez1)
 
-## License
+## Licence
 
 ### Boilerplate code
+
+The boilerplate code I used for this project is licensed with the following licences:
 
 - HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/
 - main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme
