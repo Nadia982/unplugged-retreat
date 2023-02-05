@@ -7,7 +7,7 @@ This is a responsive website for a fictional countryside tech retreat. It was pr
 
 ## Screenshots
 
-[Screenshots to be added.]
+![](https://user-images.githubusercontent.com/79932225/216815018-8cdab96b-368a-4140-bcfc-256d23dda61f.png)
 
 ## Tech/Frameworks used
 
