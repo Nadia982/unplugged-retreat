@@ -1,7 +1,7 @@
 <h1 align="center">Unplugged Retreat Website</h1>
-View the live project here: [link to be added].
+View the live project at https://nadia982.github.io/unplugged-retreat2/
 
-## Summary
+## Introduction
 
 This is a responsive website for a fictional countryside tech retreat. It was produced for the "Coding Responsive Websites" module of Skillcrush's Break Into Tech course (https://skillcrush.com/).
 
@@ -18,6 +18,7 @@ This site was created using:
 1. [VS Code:](https://code.visualstudio.com/) source code editor used for code editing.
 1. [Git:](https://git-scm.com/) was used for version control.
 1. [GitHub:](https://github.com/) was used to host the code online.
+1. [GitHub Pages:](https://pages.github.com/) was used to deploy the live site.
 1. [Google Fonts:](https://fonts.google.com/) the Poppins and Open Sans web fonts were imported from Google Fonts and used throughout the site.
 1. [Font Awesome:](https://fontawesome.com/) was used for the icons in the homepage features section, and in the footer of all pages.
 1. [Google Maps:](https://www.google.com/maps) a responsive iframe was used to embed a Google map in the About page.
