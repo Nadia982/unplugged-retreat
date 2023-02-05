@@ -7,7 +7,7 @@ This is a responsive website for a fictional countryside tech retreat. It was pr
 
 ## Screenshots
 
-[Screenshots to be added.]
+![](https://user-images.githubusercontent.com/79932225/216815018-8cdab96b-368a-4140-bcfc-256d23dda61f.png)
 
 ## Tech/Frameworks used
 
@@ -47,6 +47,8 @@ The HTML was tested at https://validator.w3.org/
 The CSS was tested at https://jigsaw.w3.org/css-validator/
 
 All links were tested to ensure correct functionality.
+
+The GitHub pages site was checked on multiple screen sizes simultaneously using Matt Kersley's responsive design testing tool: https://github.com/mattkersley/Responsive-Design-Testing
 
 ## Credits
 
